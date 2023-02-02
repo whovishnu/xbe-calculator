@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 30px;
+  font-family: sans-serif;
+  background-image: linear-gradient(#9ffadc, #6494d3);
+}
+h1 {
+  text-align: center;
+  color: #555;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.steps {
+  display: flex;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.stepBtn {
+  padding: 8px;
+  color: #428aca;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.selected {
+  background-color: #eee;
+  color: black;
+}
+
+.stepBtn:hover {
+  color: #234868;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+input {
+  padding-left: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 26px;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  border: 1px solid #428aca;
+  box-shadow: 0px 0px 4px #428aca;
+}
+
+.hide {
+  display: none;
+}
+
+.hrow {
+  border-bottom: 1px solid #aaa;
+  margin: 20px 0px 10px;
+}
+
+button {
+  border: none;
+  background-color: #6cc52a;
+  padding: 10px;
+  width: 70px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
